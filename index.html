@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=1920, height=1080" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <script src="$WEBAPIS/webapis/webapis.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="appName">Checkout</h1>
+        <h2 class="appVersion">2.0.0</h2>
+        <div class="tvInfo">
+            <p class="firmware"></p>
+            <p class="model"></p>
+        </div>
+    </header>
+    <section class="main">
+        <div class="main-container">
+            <section id="info-container">
+
+            </section>
+
+            <div class="dpi-server-type"></div>
+            <div class="smarttv-server-type"></div>
+        </div>
+
+    </section>
+    <section class="logs">
+        <h2>Logs:</h2>
+        <div data-list-item class="logsContainer">
+
+        </div>
+    </section>
+    <section class="info">
+        <section class="info-container">
+            <h2>Info</h2>
+
+            <p>This application demonstrates usage of the Checkout API for product types:</p>
+            <ul>
+                <li>consumables</li>
+                <li>dynamic products</li>
+                <li>subscriptions</li>
+            </ul>
+
+        </section>
+    </section>
+    <section class="buttons" id="buttons">
+        <button data-list-item class="show-products-list">Show products list</button>
+        <button data-list-item class="show-dynamic-products">Show dynamic products</button>
+        <button data-list-item class="show-subscription">Show subscriptions</button>
+
+        <button data-list-item class="toggle-info">Show/hide info</button>
+    </section>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/keyhandler.js"></script>
+    <script src="./js/logger.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/init.js"></script>
+
+    <script src="./js/BasicController.js"></script>
+    <script src="./js/checkoutUtils.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/crypto-js.min.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/DPIService.js"></script>
+    <script src="./js/DynamicClient.js"></script>
+    <script src="./js/DynamicController.js"></script>
+    <script src="./js/elements.js"></script>
+    <script src="./js/SubscriptionController.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
